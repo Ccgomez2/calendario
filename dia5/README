@@ -1,0 +1,9 @@
+Hemos elegido este problema porque a simple vista se presenta como un caso perfecto para aplicar el método de grafos debido a su estructura que explicamos mas adelante.
+Este problema trataba sobre una serie de reglas del tipo (X|Y), que indicaban que, si el número X aparecía en lista, debía estar antes que el número Y. 
+Además, se nos daban varias listas de números y había que verificar cuáles cumplían estas normas. Por último, se calculaba el valor central (mediano) de las listas válidas, y se sumaban esos valores como resultado final.
+Decidimos resolverlo utilizando grafos, ya que las normas pueden interpretarse como un grafo dirigido donde cada regla (X|Y) representa una arista que va de X a Y. 
+Esto nos permitió modelar el problema de forma clara y eficiente.
+Implementamos una clase llamada Grafo, que representa la lista de adyacencia. 
+El fichero de entrada se procesa para construir esta lista de adyacencia y para cargar las listas de números que deben verificarse. 
+Luego, usamos una función llamada esCorrecto que, para cada lista, comprueba si respeta las normas impuestas por el grafo. 
+Finalmente, calculamos la mediana de las listas válidas, las sumamos y mostramos el resultado por pantalla.
