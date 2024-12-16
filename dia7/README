@@ -1,0 +1,9 @@
+Hemos elegido este problema porque veíamos una oportunidad clara de implementar programación dinámica con memoria para resolverlo, ya que íbamos a tener que hacer el mismo cálculo en repetidas ocasiones y de esta manera optimizamos el proceso.
+Además de que después de leerlo lo entendimos y supimos cómo enfocar la solución.
+En este problema se nos presentaban una serie de ecuaciones incompletas. 
+Cada una incluía un valor objetivo y una lista de números, y el objetivo era determinar si era posible insertar operadores de suma y multiplicación entre los números para que, 
+evaluándolos estrictamente de izquierda a derecha, se alcanzara el valor objetivo.
+Para resolverlo, decidimos emplear programación dinámica con memorización, lo que nos permitió evitar recalcular combinaciones que ya habíamos procesado.
+El algoritmo analiza todas las posibles formas de construir los valores intermedios al ir procesando cada número con las operaciones permitidas. 
+Los resultados intermedios se almacenan en una estructura de tipo hash (unordered_map) para consultar rápidamente si un estado ya se resolvió.
+Al final, tras evaluar todas las ecuaciones, sumamos los valores objetivos de aquellas que pudieron resolverse exitosamente. Este total se muestra como el resultado final del programa.
