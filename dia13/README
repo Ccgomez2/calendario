@@ -1,0 +1,30 @@
+Este problema del Advent of Code consiste en una serie de movimientos de una garra para alcanzar un premio en unas recreativas.
+El input es toda la serie de movimientos que se van a realizar sobre el gancho y hay que ver cuantos movimientos te cuesta en total ganar los premios posibles.
+
+Hemos empleado una solución con la ayuda de una tabla hash. Quizás no es una solución óptima o que se te ocurre a primera vista pero hemos aprovechado para usarla.
+Se implementa una tabla hash con colisiones para evitar recalcular posiciones ya visitadas.
+Proceso
+
+Lectura de Datos:
+
+Se lee el archivo de entrada y se extraen las configuraciones de las máquinas.
+
+Exploración de Movimientos:
+
+Para cada máquina, se calculan todas las combinaciones posibles de presiones de los botones A y B hasta un máximo de 100 presiones.
+
+Se calcula la posición alcanzada (x, y) y el costo asociado.
+
+Si la posición alcanzada coincide con la del premio, se actualiza el costo mínimo.
+
+Uso de la Tabla Hash:
+
+Cada posición alcanzada (x, y) se almacena en la tabla hash junto con el costo mínimo asociado.
+
+Antes de almacenar una nueva entrada, se verifica si ya existe una posición equivalente con un costo menor.
+
+Resultado:
+
+Para cada máquina, se determina el costo mínimo necesario para ganar el premio o se reporta que no es posible.
+
+Se calculan el costo total y el número de premios ganados.
