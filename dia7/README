@@ -7,3 +7,6 @@ Para resolverlo, decidimos emplear programación dinámica con memorización, lo
 El algoritmo analiza todas las posibles formas de construir los valores intermedios al ir procesando cada número con las operaciones permitidas. 
 Los resultados intermedios se almacenan en una estructura de tipo hash (unordered_map) para consultar rápidamente si un estado ya se resolvió.
 Al final, tras evaluar todas las ecuaciones, sumamos los valores objetivos de aquellas que pudieron resolverse exitosamente. Este total se muestra como el resultado final del programa.
+
+Para compilar hay que ejecutar el comando: g++ -o dia7 dia7.cpp
+Y para ejecutar el comando: ./dia7 < input_7.txt
