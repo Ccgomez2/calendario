@@ -1,0 +1,9 @@
+Elegimos este problema porque permite aplicar Árboles de Búsqueda Binaria (BST) para gestionar caminos de manera eficiente. 
+Los BST ofrecen una solución estructurada para mantener las posiciones ordenadas por costo, facilitando la extracción del menor coste en cada iteración y demostrando su eficacia en este tipo de desafíos.
+
+La estructura de datos principal utilizada es un Árbol de Búsqueda Binaria, que permite almacenar y priorizar posiciones según su costo acumulado. 
+Cada nodo del BST representa una posición en el laberinto, lo que facilita extraer y procesar la posición con el menor costo en cada iteración, similar al enfoque de Dijkstra.
+
+Para resolver el problema, primero se procesó el mapa del laberinto para identificar las posiciones inicial y final. 
+Luego, se utilizó el BST para manejar las posiciones a explorar, considerando movimientos y giros válidos con sus respectivos costos. 
+Finalmente, el algoritmo encuentra el camino óptimo y calcula el costo mínimo para completar el laberinto.
