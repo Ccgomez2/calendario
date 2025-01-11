@@ -8,5 +8,9 @@ El algoritmo analiza todas las posibles formas de construir los valores intermed
 Los resultados intermedios se almacenan en una estructura de tipo hash (unordered_map) para consultar rápidamente si un estado ya se resolvió.
 Al final, tras evaluar todas las ecuaciones, sumamos los valores objetivos de aquellas que pudieron resolverse exitosamente. Este total se muestra como el resultado final del programa.
 
+En un inicio, se planteó la fuerza bruta para generar todas las combinaciones de operadores, pero la explosión exponencial al aumentar el número de elementos hacía que no fuera práctica.
+
+Aprender a aplicar la programación dinámica me permitió entender cómo un buen diseño de subproblemas y la reutilización de resultados intermedios ayuda a evitar el crecimiento descontrolado del espacio de búsqueda.
+
 Para compilar hay que ejecutar el comando: g++ -o dia7 dia7.cpp
 Y para ejecutar el comando: ./dia7 < input_7.txt
