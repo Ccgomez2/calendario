@@ -1,12 +1,20 @@
 Problema 1
-Hemos elegido este problema porque a simple vista se presenta como un caso perfecto para aplicar el método de Divide y Vencerás, gracias a su estructura divisoria. 
+Este problema fue elegido porque a simple vista se presenta como un caso perfecto para aplicar el método de Divide y Vencerás, gracias a su estructura divisoria. 
 Además, su similitud con los ejemplos trabajados en clase nos permitió identificar rápidamente un enfoque claro para abordarlo.
 En este problema había que trabajar con un fichero que contenía dos listas de números. La tarea era ordenar ambas listas de menor a mayor, para luego comparar cada número de una lista con los de la otra. 
 El objetivo era calcular la diferencia entre los pares correspondientes y sumar todas esas diferencias para obtener el resultado final.
 
 Para simplificar la implementación, creamos dos clases.
-  La primera clase se encargó de leer el fichero y procesar los datos para almacenarlos en dos vectores (uno para cada lista).
-  La segunda clase implementó la solución usando el enfoque de Divide y Vencerás.
+- La primera clase se encargó de leer el fichero y procesar los datos para almacenarlos en dos vectores (uno para cada lista).
+- La segunda clase implementó la solución usando el enfoque de Divide y Vencerás.
+
 El método consiste en dividir las listas a partir de su punto medio y seguir dividiéndolas hasta que cada una contenga un solo elemento. 
 En ese punto, calculamos la diferencia absoluta entre los elementos y la acumulamos. Para los casos base, consideramos las listas vacías o con un solo elemento.
 En el main, usamos la función sort de la biblioteca vector para ordenar ambas listas antes de procesarlas.
+
+Las alternativas consideradas para resolver este problema fueron:
+ - Resolverlo con Programación dinámica haciendo uso de una matriz. Esta idea fue rechazada casi al instante ya que el problema no tiene tantas restricciones y sería más complejo a la hora de resolverlo.
+Todos los demás métodos no tenían sentido ya que es un problema sin jerarquías, rutas con conectividad ni se necesitaba una tabla hash con claves.
+                                        
+En lo personal, este problema reforzó mi capacidad para identificar el enfoque más adecuado en función de la naturaleza del problema. Además me ayudó a poner en práctica este método y entenderlo mejor. Aunque alternativas como la programación dinámica podían parecer tentadoras, fue importante reconocer que no eran necesarias. 
+
