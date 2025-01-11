@@ -7,3 +7,8 @@ Cada nodo del BST representa una posición en el laberinto, lo que facilita extr
 Para resolver el problema, primero se procesó el mapa del laberinto para identificar las posiciones inicial y final. 
 Luego, se utilizó el BST para manejar las posiciones a explorar, considerando movimientos y giros válidos con sus respectivos costos. 
 Finalmente, el algoritmo encuentra el camino óptimo y calcula el costo mínimo para completar el laberinto.
+
+Se consideró inicialmente realizar una búsqueda exhaustiva para evaluar todos los posibles caminos en el laberinto, pero esta alternativa fue descartada rápidamente debido a su complejidad exponencial.
+
+Este ejercicio resaltó la importancia de seleccionar cuidadosamente las estructuras de datos según las necesidades del problema. 
+Implementar un BST permitió explorar una solución funcional y eficiente en términos de ordenamiento y priorización.
