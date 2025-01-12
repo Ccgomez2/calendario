@@ -28,3 +28,10 @@ Resultado:
 Para cada máquina, se determina el costo mínimo necesario para ganar el premio o se reporta que no es posible.
 
 Se calculan el costo total y el número de premios ganados.
+
+ALTERNATIVAS CONSIDERADAS:
+La verdad que la tabla hash no fue una de las primeras ideas que tuvimos en cuanto a este problema pero ya que era la última técnica que nos
+quedaba por implementar la implementados un poco forzosamente.
+
+Por tanto, además de ayudarme a implementar y manejar una tabla hash me ayudó a ingeniarmelas para implementar de alguna manera un algoritmo
+aunque el problema no aparente a primera vista esa solucion.
