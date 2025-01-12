@@ -7,3 +7,10 @@ Implementamos una clase llamada Grafo, que representa la lista de adyacencia.
 El fichero de entrada se procesa para construir esta lista de adyacencia y para cargar las listas de números que deben verificarse. 
 Luego, usamos una función llamada esCorrecto que, para cada lista, comprueba si respeta las normas impuestas por el grafo. 
 Finalmente, calculamos la mediana de las listas válidas, las sumamos y mostramos el resultado por pantalla.
+
+ALTERNATIVAS POSIBLES
+- Podrías hacerlo por fuerza bruta y que cada cadena tenga que recorrer por todas las reglas hasta que encuentre una que falle o as recorra toddas y las cumpla
+Sin embargo este acercamiento es extremadamente costoso y los grafos son mucho mejores.
+
+El problema me ayudó a identificar claramente problemas de grafos y aprender a implementarlos y a manejarlos.
+También me ayudó a darme cuenta de lo útil y rápido que es resolver un problema con la estructura de datos adecuada
